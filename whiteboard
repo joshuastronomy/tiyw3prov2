@@ -1,0 +1,8 @@
+as numbers are clicked, add to stage
+once an operator is clicked, add stage to array, then add operator to array
+add more numbers as needed, repeat stage/add
+on equals, should have an array with number values separated by operators
+loop over array searching to *
+on *, temp answer var = [x-1] * [x+1]
+remove those three values from the array
+add test answer var to the index where * was

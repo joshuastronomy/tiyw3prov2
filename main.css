@@ -1,0 +1,68 @@
+@font-face { font-family: dsdigital; src: url('ds-digi.ttf'); }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+input, .output, .solar  {
+  border: 1px solid #86C37C;
+  border-collapse: collapse;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 25%;
+  /*width: 100%;
+  height: 100%;*/
+  background-color: #61B34F;
+  color: white;
+  font-size: 1.5em;
+
+}
+
+  .output  {
+    display: flex;
+    flex-basis: 75%;
+    height: 100px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 2em;
+    font-family: dsdigital;
+
+  }
+
+  .solar  {
+    flex-basis: 100%;
+    height: 100px;
+  }
+
+
+
+
+.calculator {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 356px;
+  max-height: 800px;
+  margin: 0 auto;
+}
+
+.button {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.button:focus  {
+  outline: none;
+}
+
+.last {
+  background-color: #83C178;
+  color: black;
+  border-bottom-color: #A9D4A3;
+  border-top-color: #A9D4A3;
+}
